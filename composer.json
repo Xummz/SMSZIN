@@ -1,0 +1,12 @@
+{
+    "name": "xummz/smszin",
+    "description": "sistema de envio de sms padr\u0000o",
+    "autoload": {
+        "psr-4": {
+            "Classes\\" : "./classes"
+        }
+    },
+    "require": {
+        "twilio/sdk": "^6.20"
+    }
+}
