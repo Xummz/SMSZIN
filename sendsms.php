@@ -11,7 +11,7 @@ if(!$body){
 header('content-type: application/json');
 
 require_once './vendor/autoload.php';
-
+//teste
 $form = json_decode($body);
 
 $sms = new SMS();
